@@ -19,7 +19,7 @@
 
 #Persistent
 #SingleInstance, Force
-SetTimer, WatchJoustick, 10
+SetTimer, WatchJoystick, 10
 SetTimer, WatchShift, 10
 SetTimer, WatchAttack, 10
 return
@@ -27,7 +27,7 @@ return
 
 
 ; WASD or Arrow Key - Movement and Mouse Move
-WatchJoustick:
+WatchJoystick:
 JoyX := GetKeyState("JoyX", "P") ; X-axis
 JoyY := GetKeyState("joyY", "P") ; Y-axis
 MouseMode := GetKeyState("Joy10", "P") ; SELECT
