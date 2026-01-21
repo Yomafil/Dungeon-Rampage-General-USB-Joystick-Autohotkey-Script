@@ -24,6 +24,9 @@ SetTimer, WatchShift, 10
 SetTimer, WatchAttack, 10
 return
 
+SendMode, Input
+SetKeyDelay, -1, -1
+
 
 
 ; WASD or Arrow Key - Movement and Mouse Move
